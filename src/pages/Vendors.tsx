@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import Layout from '../components/layout/Layout';
 import { vendors } from '../data/mockData';
 import { useDark } from '../context/DarkModeContext';

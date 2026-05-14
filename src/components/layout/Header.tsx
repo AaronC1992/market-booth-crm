@@ -1,5 +1,4 @@
-import React from 'react';
-import { Bell, Moon, Sun, Search } from 'lucide-react';
+import { Bell, Moon, Sun } from 'lucide-react';
 import { useDark } from '../../context/DarkModeContext';
 
 interface HeaderProps {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Layout from '../components/layout/Layout';
 import BoothDetail from '../components/booths/BoothDetail';
 import { booths as initialBooths } from '../data/mockData';

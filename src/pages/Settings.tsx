@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Layout from '../components/layout/Layout';
 import { useDark } from '../context/DarkModeContext';
-import { Moon, Sun, Store, DollarSign, Clock, Bell, Shield, FileText } from 'lucide-react';
+import { Moon, Sun, Store, DollarSign, Clock, Bell } from 'lucide-react';
 
 const RENT_TYPES = [
   { label: 'Small Booth', base: 125 },

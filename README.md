@@ -1,6 +1,6 @@
 # Market Booth CRM
 
-**[🔗 GitHub Repo](https://github.com/AaronC1992/market-booth-crm)**
+**[🔗 Live App](https://market-booth-crm.vercel.app)**
 
 ---
 

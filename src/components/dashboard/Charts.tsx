@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend,
   PieChart, Pie, Cell,
@@ -33,7 +32,7 @@ export function RevenueChart() {
         <Tooltip
           contentStyle={{ background: dark ? '#1e293b' : '#fff', border: `1px solid ${dark ? '#334155' : '#e2e8f0'}`, borderRadius: 8, fontSize: 12 }}
           labelStyle={{ color: dark ? '#f1f5f9' : '#0f172a', fontWeight: 600 }}
-          formatter={(v: number) => [formatCurrency(v)]}
+          formatter={(v) => [formatCurrency(v as number)]}  
         />
         <Legend wrapperStyle={{ fontSize: 12, color: textColor }} />
         <Area type="monotone" dataKey="revenue" name="Actual Revenue" stroke="#6366f1" strokeWidth={2} fill="url(#revGrad)" />

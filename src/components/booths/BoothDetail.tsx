@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { X, Phone, Mail, Calendar, DollarSign, FileText, Edit2, UserPlus, UserMinus, Printer, CheckCircle, AlertTriangle } from 'lucide-react';
+import { useState } from 'react';
+import { X, Phone, Mail, Calendar, DollarSign, FileText, Edit2, UserPlus, UserMinus, Printer, CheckCircle } from 'lucide-react';
 import type { Booth } from '../../types';
 import { useDark } from '../../context/DarkModeContext';
 import { statusTextColors, statusLabel, paymentTextColors, paymentLabel, boothTypeLabel, formatCurrency, formatDate } from '../../utils/format';

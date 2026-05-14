@@ -1,4 +1,3 @@
-import React from 'react';
 import { useDark } from '../../context/DarkModeContext';
 import type { LucideIcon } from 'lucide-react';
 

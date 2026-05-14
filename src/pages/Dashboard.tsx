@@ -1,4 +1,3 @@
-import React from 'react';
 import Layout from '../components/layout/Layout';
 import StatCard from '../components/dashboard/StatCard';
 import { RevenueChart, OccupancyChart } from '../components/dashboard/Charts';
@@ -6,7 +5,7 @@ import {
   Store, CheckCircle, Circle, Clock, AlertTriangle, DollarSign, TrendingUp, Users, Wrench,
 } from 'lucide-react';
 import { booths, vendors, getStats } from '../data/mockData';
-import { formatCurrency, statusTextColors, statusLabel, paymentTextColors, paymentLabel } from '../utils/format';
+import { formatCurrency, statusTextColors, statusLabel } from '../utils/format';
 import { useDark } from '../context/DarkModeContext';
 import { useNavigate } from 'react-router-dom';
 
